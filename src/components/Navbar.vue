@@ -2,7 +2,7 @@
     <!-- 导航条 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <router-link class="navbar-brand" to="/">
-        <img src="/img/icons/logo.png" alt="logo" width="27" height="27" class="d-inline-block align-top">
+        <img src="img/icons/logo.png" alt="logo" width="27" height="27" class="d-inline-block align-top">
         智家
     </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

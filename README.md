@@ -1,5 +1,8 @@
 # myread
 
+### 爱读书
+[Home](https://loov66.github.io)
+
 ## Project setup
 ```
 npm install

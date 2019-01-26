@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/dist/js/chunk-vendors.6dfe03e2.js"
   },
   {
-    "revision": "c7927276dbf2ad0e9d4d",
-    "url": "/dist/js/app.242d544e.js"
+    "revision": "fa65cac542c045382fa2",
+    "url": "/dist/js/app.3a0c67c9.js"
   },
   {
-    "revision": "790d984bdf300e6d3307d989fff4dd8f",
+    "revision": "633d56d219aeb5393010dc278f87b6af",
     "url": "/dist/index.html"
   },
   {

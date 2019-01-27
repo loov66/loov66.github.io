@@ -16,7 +16,11 @@ export default {
     };
   },
   created() {
-    this.$axios.get(`${this.$douban.hot}`)
+    axios.get(`${this.$douban.hot}`, {
+      params: {
+        city: '深圳'
+      }
+    })
     // this.$axios.get(`/api/devices`)
       .then(res => {
       console.log(res.data);

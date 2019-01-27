@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/dist/robots.txt"
   },
   {
-    "revision": "9f7cf374c32f7c8e31e9",
-    "url": "/dist/js/chunk-vendors.7f6c992b.js"
+    "revision": "1fb1d28191ebb4b93d7a",
+    "url": "/dist/js/chunk-vendors.6dfe03e2.js"
   },
   {
-    "revision": "8806cb4e8747fdaf637a",
-    "url": "/dist/js/app.c03bbdc0.js"
+    "revision": "ac049c9f2559129bf19e",
+    "url": "/dist/js/app.c8f2a27d.js"
   },
   {
-    "revision": "070fc49edfa407715938e3ecb1feca5e",
+    "revision": "51337a004d854bfae1c657e9c815ec26",
     "url": "/dist/index.html"
   },
   {

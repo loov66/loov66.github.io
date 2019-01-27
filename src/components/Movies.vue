@@ -8,9 +8,12 @@
           <h5 class="card-title">影名：{{movie.title}}</h5>
           <p class="card-text">
             豆瓣评分：{{movie.rating.average}} <br>
-            上映日期：{{movie.mainland_pubdate}}
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+            上映日期：
+            <div v-for="(date) in movie.pubdates" :key="date">
+                {{date}}
+            </div>
+          <a href="#" class="btn btn-primary">详情</a>
         </div>
       </div>
     </div>

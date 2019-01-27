@@ -2,7 +2,6 @@
   <div id="app">
     <Navbar></Navbar>
     <img src="img/icons/logo.png" alt="logo">logo1
-    <img src="/img/icons/logo.png" alt="logo">logo2
     <router-view/>
   </div>
 </template>

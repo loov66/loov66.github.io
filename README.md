@@ -1,32 +1,25 @@
 # myread
 
 ### 爱读书
-[Home](https://loov66.github.io/dist)
+##[Home](https://loov66.github.io/dist "首页")
+>
+孔子曰：书里圣魔都有
+>
+![yali](https://loov66.github.io/dist/img/icons/logo.png "鸭梨")
 
+(```)
+const vm = new Vue({
+    name: 'app',
+    data() {
+        return {
+            msg: 'hello Vue'
+        }
+    }
+})
+(```)
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

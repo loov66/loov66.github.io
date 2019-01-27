@@ -1,20 +1,34 @@
 <template>
-    <!-- 导航条 -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <!-- 导航条 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <router-link class="navbar-brand" to="/">
-        <img src="img/icons/logo.png" alt="logo" width="27" height="27" class="d-inline-block align-top">
-        智家
+      <img
+        src="img/icons/logo.png"
+        alt="logo"
+        width="27"
+        height="27"
+        class="d-inline-block align-top"
+      >
+      智家
     </router-link>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <router-link class="navbar-brand" to="/about">关于</router-link>
+    </div>
 
     <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/api/device/add">Add <span class="sr-only">(add)</span></a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
             </li>
@@ -38,6 +52,6 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-    </div> -->
-</nav>
+    </div>-->
+  </nav>
 </template>
